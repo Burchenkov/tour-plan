@@ -337,6 +337,10 @@ body {
   margin-left: 108px;
 }
 
+.navbar__button-top {
+  display: none;
+}
+
 .logo__img {
   width: 177px;
 }
@@ -460,6 +464,30 @@ body {
   }
   .logo__img {
     max-width: 133px;
+  }
+  .navbar__menu, .navbar__search, .navbar__user {
+    display: none;
+  }
+  .navbar__button-top {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 11px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  .navbar__button-top span {
+    width: 16px;
+    height: 1px;
+    background-color: #333333;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo__img {
+    max-width: 99px;
   }
 }
 /*# sourceMappingURL=style.css.map */

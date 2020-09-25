@@ -10,6 +10,10 @@
     margin-right: auto
     margin-left: 108px
 
+.logo
+  &__img
+    width: 177px
+    
 .search
   display: flex
   position: relative
@@ -34,6 +38,7 @@
     border: none
     border-bottom-right-radius: 5px
     border-top-right-radius: 5px
+
 .user
   display: flex
   align-items: center
@@ -46,4 +51,27 @@
     object-fit: cover
   &__name
     margin-left: 18px
+
+.menu
+  background-color: $dark-color
+  &__navigation
+    display: flex
+    justify-content: space-between
+    margin: 0
+    padding: 31px 0
+    font-size: 14px
+    line-height: 18px
+    list-style-type: none
+    color: $light-color
+    
+.navigation
+  &__items
+    a
+      color: inherit
+      text-decoration: none
+      text-transform: uppercase
+      font-size: 14px
+      line-height: 18px
+      
+
   

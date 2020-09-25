@@ -416,6 +416,18 @@ body {
   line-height: 18px;
 }
 
+@media (max-width: 1920px) {
+  .conteiner {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 1480px) {
+  .conteiner {
+    max-width: 1160px;
+  }
+}
+
 @media (max-width: 1200px) {
   .conteiner {
     max-width: 960px;
@@ -454,7 +466,7 @@ body {
 
 @media (max-width: 768px) {
   .conteiner {
-    max-width: 576px;
+    max-width: 536px;
     width: 92%;
   }
   .navigation__items a {
@@ -489,6 +501,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  .conteiner {
+    max-width: 280px;
+    width: 92%;
+  }
   .logo__img {
     max-width: 99px;
   }

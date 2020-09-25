@@ -446,7 +446,9 @@ body {
   .navbar__search {
     margin-right: auto;
     margin-left: auto;
-    max-width: 340px;
+  }
+  .search__area {
+    width: 340px;
   }
 }
 
@@ -474,6 +476,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 11px;
+    padding: 0;
     background-color: #ffffff;
     border: none;
     cursor: pointer;

@@ -12,7 +12,7 @@
 
 @media ( max-width: 992px )
   .conteiner 
-    max-width: 760px
+    max-width: 730px
 
   .logo
     &__img
@@ -43,7 +43,7 @@
 @media ( max-width: 768px )
   .conteiner
     max-width: 536px
-    width: 92%
+    
 
   .navigation
     &__items
@@ -75,6 +75,20 @@
         width: 16px
         height: 1px
         background-color: $font-color
+  .hotel
+    &-info
+      &__rating
+        display: none
+    &__name
+      flex-basis: 100%
+      margin: 10px 0 3px 0
+  .offer
+    order: -1
+  .stars
+    flex-basis: auto
+    margin-bottom: 0
+    margin-left: 400px
+
 
 @media ( max-width:576px )
   .conteiner
@@ -84,8 +98,26 @@
   .logo
     &__img
       max-width: 99px
+  
+  .hotel
+
+    &-info
+      &__rating
+        display: none
+      &__name
+        flex-basis: 100%
+        margin: 10px 0 3px 0
+  .offer
+    order: -1
+  .stars
+    flex-basis: auto
+    margin-bottom: 0
+    margin-left: 154px
 
 @media ( max-width: 320px )
+  .conteiner
+    max-width: 120px
+ 
 
 
 

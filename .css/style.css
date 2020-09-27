@@ -463,9 +463,10 @@ body {
 }
 
 .hotel-info__name {
-  font-size: 24px;
-  line-height: 30px;
   margin: 0 14px 5px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 30px;
 }
 
 .hotel-wrapper {

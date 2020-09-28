@@ -616,11 +616,11 @@ body {
 
 @media (max-width: 576px) {
   .conteiner {
-    max-width: 280px;
+    max-width: 400px;
     width: 92%;
   }
   .logo__img {
-    max-width: 99px;
+    max-width: 133px;
   }
   .hotel-info__rating {
     display: none;
@@ -628,6 +628,24 @@ body {
   .hotel-info__name {
     flex-basis: 100%;
     margin: 10px 0 3px 0;
+  }
+  .offer {
+    order: -1;
+  }
+  .stars {
+    flex-basis: auto;
+    margin-bottom: 0;
+    margin-left: 154px;
+  }
+}
+
+@media (max-width: 470px) {
+  .conteiner {
+    max-width: 320px;
+    width: 92%;
+  }
+  .logo__img {
+    max-width: 99px;
   }
   .offer {
     order: -1;

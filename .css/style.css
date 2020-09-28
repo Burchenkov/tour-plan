@@ -641,7 +641,7 @@ body {
 
 @media (max-width: 470px) {
   .conteiner {
-    max-width: 320px;
+    max-width: 300px;
     width: 92%;
   }
   .logo__img {

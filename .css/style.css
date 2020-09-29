@@ -443,6 +443,7 @@ body {
 .hotel {
   padding-top: 23px;
   padding-bottom: 70px;
+  background-color: #F5FAFE;
   color: #333333;
 }
 
@@ -659,7 +660,7 @@ body {
 
 @media (max-width: 320px) {
   .conteiner {
-    max-width: 240px;
+    max-width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */

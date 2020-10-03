@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best tour plan Hotel Booking</title>
-    <!-- Шрифты -->
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
-    <!-- Подключение CSS -->
+    <!-- Шрифты -->
+    <link rel="stylesheet" href=".css/swiper-bundle.min.css" />
+    <!-- Подключение CSS для JS -->
     <link rel="stylesheet" href=".css/style.css" />
+    <!-- Подключение CSS -->
   </head>
   <body>
     <header class="navbar">
@@ -134,8 +136,31 @@
           </div>
           <!-- /.hotel-info__rating -->
         </div>
+        <!-- /.hotel-info -->
+        <div class="hotel-grid">
+          <div class="slider">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg" class="swiper-slide"></img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg">
+                <img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg" class="swiper-slide"></img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg">
+                <img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg" class="swiper-slide"></img src="/img/lesson-20/c51053944d88e342b77ef771783c0dd3.jpg">
+                ...
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <!-- /.slider -->
+        </div>
+        <!-- /.hotel-grid -->
       </div>
     </section>
     <!-- /.hotel -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

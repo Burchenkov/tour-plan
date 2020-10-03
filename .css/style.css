@@ -517,6 +517,11 @@ body {
   line-height: 15px;
 }
 
+.swiper-container {
+  width: 728px;
+  height: 450px;
+}
+
 @media (max-width: 1920px) {
   .conteiner {
     max-width: 1440px;

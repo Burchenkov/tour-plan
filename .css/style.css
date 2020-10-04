@@ -674,8 +674,8 @@ body {
 }
 
 .map {
-  width: 347px;
-  height: 213px;
+  max-width: 347px;
+  max-height: 213px;
 }
 
 @media (max-width: 1920px) {
@@ -693,6 +693,12 @@ body {
 @media (max-width: 1200px) {
   .conteiner {
     max-width: 960px;
+  }
+  .slider {
+    width: 600px;
+  }
+  .swiper-wrapper img {
+    object-fit: cover;
   }
 }
 
@@ -723,6 +729,16 @@ body {
   }
   .search__area {
     width: 340px;
+  }
+  .hotel-grid {
+    flex-direction: column;
+  }
+  .hotel-right {
+    flex-direction: row;
+  }
+  .slider {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -774,6 +790,19 @@ body {
     margin-bottom: 0;
     margin-left: 400px;
   }
+  iframe {
+    max-width: 263px;
+  }
+  .booking {
+    max-width: 263px;
+    margin-right: 10px;
+  }
+  .slider {
+    height: 350px;
+  }
+  .swiper-container {
+    height: 100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -799,6 +828,26 @@ body {
     margin-bottom: 0;
     margin-left: 154px;
   }
+  .slider {
+    max-width: 400px;
+    max-height: 270px;
+  }
+  .hotel-right {
+    flex-direction: column;
+  }
+  .booking {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 400px;
+    max-width: 400px;
+  }
+  .map {
+    max-width: 100%;
+  }
+  iframe {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 470px) {
@@ -817,11 +866,45 @@ body {
     margin-bottom: 0;
     margin-left: 154px;
   }
+  .booking {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 300px;
+    max-width: 300px;
+  }
+  .map {
+    max-width: 300px;
+  }
+  iframe {
+    width: 300px;
+    max-width: 300px;
+  }
+  .slider {
+    width: 300px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 320px) {
   .conteiner {
     max-width: 280px;
+  }
+  .booking {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 280px;
+    max-width: 280px;
+  }
+  .map {
+    max-width: 280px;
+  }
+  iframe {
+    width: 280px;
+    max-width: 280px;
+  }
+  .slider {
+    width: 280px;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

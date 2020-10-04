@@ -373,6 +373,7 @@ body {
   border: none;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
+  cursor: pointer;
 }
 
 .user {
@@ -581,6 +582,7 @@ body {
 }
 
 .booking {
+  font-family: Nunito;
   width: 350px;
   max-height: 210px;
   padding: 28px;
@@ -678,6 +680,88 @@ body {
   max-height: 213px;
 }
 
+.newsletter {
+  position: relative;
+  padding: 98px 0 87px 0;
+  background-image: url(../img/lesson-22/bck-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.newsletter:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 34, 61, 0.7);
+}
+
+.newsletter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  max-width: 731px;
+  margin: auto;
+}
+
+.newsletter-title {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.newsletter-title__strong {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  position: relative;
+  width: 355px;
+  height: 55px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.subscribe__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-right: 75px;
+  padding-left: 33px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+}
+
+.subscribe__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px 18px;
+  height: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+  background-color: #EC1F46;
+  cursor: pointer;
+}
+
 @media (max-width: 1920px) {
   .conteiner {
     max-width: 1440px;
@@ -703,7 +787,8 @@ body {
 }
 
 @media (max-width: 992px) {
-  .conteiner {
+  .conteiner,
+  .newsletter-wrapper {
     max-width: 730px;
   }
   .logo__img {
@@ -803,6 +888,23 @@ body {
   .swiper-container {
     height: 100%;
   }
+  .newsletter {
+    padding: 76px 0 83px 0;
+  }
+  .newsletter-title__strong {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .newsletter__title {
+    margin-bottom: 37px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .newsletter-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 536px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -812,6 +914,9 @@ body {
   }
   .logo__img {
     max-width: 133px;
+  }
+  .hotel {
+    padding-bottom: 40px;
   }
   .hotel-info__rating {
     display: none;
@@ -848,6 +953,12 @@ body {
     width: 100%;
     max-width: 100%;
   }
+  .newsletter-wrapper {
+    max-width: 400px;
+  }
+  .newsletter__subscribe {
+    max-width: 280px;
+  }
 }
 
 @media (max-width: 470px) {
@@ -883,6 +994,9 @@ body {
     width: 300px;
     height: 200px;
   }
+  .newsletter-wrapper {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -905,6 +1019,9 @@ body {
   .slider {
     width: 280px;
     height: 200px;
+  }
+  .newsletter-wrapper {
+    max-width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */

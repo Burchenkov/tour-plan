@@ -54,9 +54,15 @@
     &-right
       flex-direction: row
 
-  .hotel__slider
-    width: 100%
-    margin-bottom: 20px
+  .hotel
+    &__slider
+      width: 100%
+      margin-bottom: 20px
+
+  .reviwes
+    &-slider
+      &__item
+        max-width: 580px
 
 @media ( max-width: 768px )
 
@@ -136,6 +142,23 @@
       flex-direction: column
       align-items: flex-start
       max-width: 536px
+
+  .reviwes
+    &-slider
+      &__item
+        &:before, &::after
+          display: none
+    &-swiper
+      &-button
+        top: 45px
+        left: 50%
+        transform: translate(-50%,0)
+        &__next
+          margin-left: 65px
+        &__prev
+          margin-left: -65px
+      &__item
+        padding: 0 30px 30px
 
 @media ( max-width:576px )
   .conteiner
@@ -222,6 +245,11 @@
   .newsletter
     &-wrapper
       max-width: 300px
+
+  .reviwes
+    &-slider
+      &__item
+        padding: 0 30px 30px
 
 @media ( max-width: 320px )
   .conteiner

@@ -1,0 +1,90 @@
+.reviwes
+  padding: 40px 0 70px 0
+  background-color: $background-color
+  &-title
+    margin-top: 0
+    margin-bottom: 70px
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+  &-slider
+    &__item
+      position: relative
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 731px
+      margin: 45px auto 0
+      padding: 0 62px 30px
+      background-color: #fff
+      border-radius: 8px
+      &:before
+        content: ''
+        position: absolute
+        top: 13px
+        left: 62px
+        width: 70px
+        height: 47px
+        background-image: url(../img/lesson-22/quote-left.svg)
+        background-repeat: no-repeat
+      &:after
+        content: ''
+        position: absolute
+        top: 119px
+        right: 88px
+        width: 70px
+        height: 47px
+        background-image: url(../img/lesson-22/quote-right.svg)
+        background-repeat: no-repeat
+    &__profile
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-bottom: 33px
+    &__avatar
+      width: 90px
+      height: 90px
+      border-radius: 50%
+      object-fit: cover
+      margin-top: -45px
+      margin-bottom: 9px
+    &__username
+      font-weight: bold
+      font-size: 12px
+      line-height: 15px
+      color: $button-color
+      margin: 0 0 10px
+    &__date
+      font-weight: normal
+      font-size: 10px
+      line-height: 13px
+    &__text
+      width: 537px
+      margin: auto
+      font-weight: normal
+      font-size: 12px
+      line-height: 160%
+      color: $font-color
+  &-swiper
+    &-button
+      width: 30px
+      height: 30px
+      top: 50%
+      transform: translateY(-50%)
+      position: absolute
+      border: none
+      z-index: 3
+      cursor: pointer
+      background-color: transparent
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 10px
+      outline: none
+      &__next
+        right: 0
+        margin-right: 18px
+        background-image: url(../img/lesson-22/arrow-right.svg)
+      &__prev
+        margin-left: 18px
+        background-image: url(../img/lesson-22/arrow-left.svg)

@@ -17,6 +17,10 @@
       img
         object-fit: cover
 
+  .card
+    width: 230px
+    height: 230px
+
 @media ( max-width: 992px )
   .conteiner,
   .newsletter-wrapper
@@ -63,6 +67,13 @@
     &-slider
       &__item
         max-width: 580px
+
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      width: 49%
+      margin-bottom: 20px
 
 @media ( max-width: 768px )
 
@@ -148,9 +159,11 @@
       &__item
         &:before, &::after
           display: none
+    &-title
+      font-size: 33px
     &-swiper
       &-button
-        top: 45px
+        top: 30px
         left: 50%
         transform: translate(-50%,0)
         &__next
@@ -159,6 +172,13 @@
           margin-left: -65px
       &__item
         padding: 0 30px 30px
+
+  .activities
+    padding: 40px 0 60px 0
+
+  .card
+    width: 49%
+    height: 255px
 
 @media ( max-width:576px )
   .conteiner
@@ -211,6 +231,13 @@
     &__subscribe
       max-width: 280px
 
+  .reviwes
+    &-title
+      font-size: 24px
+
+  .card
+    width: 100%
+
 @media ( max-width:470px )
   .conteiner
     max-width: 300px
@@ -250,6 +277,8 @@
     &-slider
       &__item
         padding: 0 30px 30px
+    &-title
+      font-size: 18px
 
 @media ( max-width: 320px )
   .conteiner

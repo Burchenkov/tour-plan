@@ -19,3 +19,12 @@ var reviwesSlider = new Swiper(".reviwes-slider", {
     prevEl: ".reviwes-swiper-button__prev",
   },
 });
+
+var menuButton = document.querySelector(".button-top");
+menuButton.addEventListener("click", function () {
+  document
+    .querySelector(".navbar__menu")
+    .classList.toggle("navbar__menu--visible")
+    .querySelector(".navigation__items")
+    .classList.toggle("navigation__items--mobile_visible");
+});

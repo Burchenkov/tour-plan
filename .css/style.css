@@ -1492,6 +1492,7 @@ body {
     bottom: 0;
     top: 78px;
     justify-content: flex-start;
+    overflow: auto;
   }
   .menu__navigation {
     display: flex;
